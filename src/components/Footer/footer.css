@@ -38,6 +38,10 @@
     line-height: 2em;
     font-size: 1.2em;
 }
+.footer li:hover{
+    color:#f3972b;
+    cursor: pointer;
+}
 .footer-last{
     display: flex;
     align-items: center;
@@ -54,4 +58,52 @@
 .footer-last span{
     margin-left: 0.5em; 
     font-size: 2em;   
+}
+.footer-last span:hover{
+    color: #f3972b;
+    cursor: pointer;
+}
+@media(max-width:992px){
+    .footer-container h1{
+        font-size: 4em;
+    }
+    .location span{
+        font-size: 2em;
+    }
+    .footer li{
+        line-height: 2em;
+        font-size: 1em;
+    }
+    .footer-last h3{
+        margin: 0.5em ;
+    }
+    .footer-last span{
+        font-size: 1.3em;   
+    }
+}
+@media(max-width:768px){
+    .footer{
+        justify-content: start;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 3em 2em;
+    }
+    .services{
+        margin-left: 0em;
+    }   
+}
+@media(max-width:500px){
+    .footer-container{
+        width: 100%;
+    }
+    .footer-container h1{
+        font-size: 2rem;
+    }
+    .footer-last h3{
+        font-size: 1em;   
+    }
+    .footer-last span{
+        margin-left: 5px; 
+        font-size: 1em;   
+    }
 }

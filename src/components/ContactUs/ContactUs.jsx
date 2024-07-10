@@ -1,8 +1,16 @@
+import React, { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 import "./contactUs.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 
 function ContactUs() {
+  useEffect(() => {
+    // Initialize AOS
+    AOS.init();
+  }, []);
+
   return (
     <div className="contact-main">
       <div className="contact-heading">
@@ -11,19 +19,19 @@ function ContactUs() {
       <div className="form">
         <div className="form-content">
           <label>
-            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Name" data-aos="fade-up" data-aos-duration="1500"/>
           </label>
           <label>
-            <input type="email" placeholder="Email" />
+            <input type="email" placeholder="Email" data-aos="fade-up" data-aos-duration="1500"/>
           </label>
           <label>
-            <input type="number" placeholder="Phone Number" />
+            <input type="number" placeholder="Phone Number"data-aos="fade-up" data-aos-duration="1500" />
           </label>
           <label>
-            <input type="text" placeholder="Company" />
+            <input type="text" placeholder="Company" data-aos="fade-up" data-aos-duration="1500"/>
           </label>
           <div className="dropdown-container">
-            <select className="dropdown">
+            <select className="dropdown" data-aos="fade-up" data-aos-duration="1500">
               <option value="option1" disabled>
                 select a service
               </option>
@@ -34,9 +42,9 @@ function ContactUs() {
             </select>
           </div>
 
-          <textarea placeholder="Enter your text here..."></textarea>
+          <textarea placeholder="Enter your text here..." data-aos="fade-up" data-aos-duration="1500"></textarea>
         </div>
-        <div className="contact-btn">
+        <div className="contact-btn" data-aos="fade-up" data-aos-duration="1500">
           <button> <FontAwesomeIcon icon={faPaperPlane} /> 
           <span>Send message</span></button>
         </div>

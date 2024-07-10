@@ -1,6 +1,6 @@
 .card-sec {
     width: 100%;
-    background-color: hsl(180, 6%, 97%);
+    background-color: #f7f8f8;
     padding: 2em ;
   }
   
@@ -31,7 +31,10 @@
     cursor: pointer;
     margin-bottom: 2em; /* Added margin-bottom to space out the rows */
   }
-  
+  .boxes:hover{
+    transition: transform 0.5s ease, box-shadow 0.9s ease;
+    transform: scale(1.05);
+  }
   .cards-img {
     height: 80px;
     width: 100px;

@@ -1,10 +1,16 @@
-
+import React, { useEffect } from 'react'
+import AOS from 'aos'
 import PropTypes from 'prop-types';
+import 'aos/dist/aos.css';
 import './Cards.css';
 
 const Cards = ({ path, title, para }) => {
+  useEffect(() => {
+    // Initialize AOS
+    AOS.init();
+  }, []);
   return (
-    <div className="boxes">
+    <div className="boxes" data-aos="fade-up" data-aos-duration="1500">
       <div className="cards-img">
         <img src={path} alt={title} />
       </div>

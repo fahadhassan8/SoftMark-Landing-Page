@@ -5,9 +5,16 @@ import img3 from '../../assets/images/card-3.png';
 import img4 from '../../assets/images/card-4.png';
 import img5 from '../../assets/images/card-5.png';
 import Cards from '../Cards/Cards';
+import React, { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 import './multipleCard.css';
 
 const MultipleCard = () => {
+  useEffect(() => {
+    // Initialize AOS
+    AOS.init();
+  }, []);
   const serviceData = [
     {
       path: img1,
@@ -38,7 +45,7 @@ const MultipleCard = () => {
 
   return (
     <div className="card-sec">
-      <div className="main-heading">
+      <div className="main-heading" data-aos="fade-up" data-aos-duration="1500">
         <h1>Our Services</h1>
       </div>
       <div className="sub-cards container">

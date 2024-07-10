@@ -3,17 +3,24 @@ import { faLocationCrosshairs } from '@fortawesome/free-solid-svg-icons';
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
-
+import React, { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 
 import "./footer.css";
 
 export default function Footer() {
+  useEffect(() => {
+    // Initialize AOS
+    AOS.init();
+  }, []);
+
   return (
     <>
       <div className="footer-container">
-        <h1>SoftMark Solutions</h1>
+        <h1 data-aos="fade-up" data-aos-duration="1500">SoftMark Solutions</h1>
         <div className="footer Container">
-            <div className="quick-links">
+            <div className="quick-links" data-aos="fade-up" data-aos-duration="1500">
                 <h2>Quick Links</h2>
                 <ul>
                     <li>Home</li>
@@ -24,7 +31,7 @@ export default function Footer() {
                     <li>Contact Us</li>
                 </ul>
             </div>
-            <div className="services">
+            <div className="services" data-aos="fade-up" data-aos-duration="1500">
             <h2 className="services">Services</h2>
                 <ul>
                     <li>Web Development</li>
@@ -34,7 +41,7 @@ export default function Footer() {
                     <li>Logo Designing</li>
                 </ul>
             </div>
-            <div className="location">
+            <div className="location" data-aos="fade-up" data-aos-duration="1500">
             <span><FontAwesomeIcon icon={faLocationCrosshairs} /></span>
                 <ul>
                     <li>United States Office</li>
