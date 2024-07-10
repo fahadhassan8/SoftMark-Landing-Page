@@ -2,14 +2,20 @@
     background-image: url('../../assets/images/cover-image.jfif');
     width: 100%;
     height: 88vh;
+    padding: 13rem 5rem;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    font-family: sans-serif;
+}
+.hero{
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-family: sans-serif;
     gap: 1em;
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
 }
 .coverImage h1{
     font-size: 3rem;
@@ -44,4 +50,51 @@ h2 span{
 }
 .cover-btn:hover{
     background-color: #4599b4 !important;
+}
+
+@media (max-width:768px){
+    .coverImage{
+        background-size:cover;
+        height: auto;
+    }
+    .hero{
+        top:5rem;
+        left: 3rem;
+    }
+    .coverImage h1{
+        font-size: 2rem;
+        letter-spacing: 3px;
+    }
+    .coverImage h2{
+        font-size: 2rem;
+        letter-spacing: 3px;
+    }
+}
+
+@media (max-width:570px){
+
+    .coverImage h1{
+        font-size: 1.5rem;
+    }
+    .coverImage h2{
+        font-size: 1.5rem;
+    }
+    .cover-btn{
+        width: 120px;
+        height: 40px;
+        border-radius: 50px !important;
+        font-weight: bold;
+        font-size: 0.9rem;
+    }
+}
+@media (max-width:430px){
+    .coverImage h1{
+        font-size: 1.2rem;
+    }
+    .coverImage h2{
+        font-size: 1.2rem;
+    }
+    .hero{
+        left: 2rem;
+    }
 }

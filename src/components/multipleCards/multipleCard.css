@@ -23,3 +23,8 @@
     bottom: -10px;
   }
   
+  @media (max-width:570px){
+    .main-heading h1 {
+      font-size: 2rem;
+    }
+  }

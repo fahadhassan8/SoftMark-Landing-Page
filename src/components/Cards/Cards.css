@@ -1,7 +1,7 @@
 .card-sec {
     width: 100%;
-    background-color: #f6f7f7;
-    padding: 2em 0;
+    background-color: hsl(180, 6%, 97%);
+    padding: 2em ;
   }
   
   .sub-cards {
@@ -43,7 +43,7 @@
   }
   
   .card-h2 h2 {
-    color: #4599b4; /* Changed to ensure visibility */
+    color: #eee; /* Changed to ensure visibility */
     font-weight: bold;
   }
   
@@ -54,3 +54,28 @@
   .card-para p {
     color: #8b8b8b;
   }
+  @media (max-width:396px){
+    .boxes {
+      max-width: 360px;
+      max-height: 350px;
+      gap: 0.5em;
+      padding: 2em 0.5em;
+    }
+    .cards-img {
+      height: 60px;
+      width: 80px;
+    }
+  
+    .cards-img img {
+      height: 100%;
+      width: 100%;
+    }
+    
+    .card-h2 h2 {
+      font-weight: 1.5rem
+    }
+
+    .card-para p {
+      font-size: 0.9em;
+    }
+}
