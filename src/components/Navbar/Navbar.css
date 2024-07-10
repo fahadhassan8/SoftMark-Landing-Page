@@ -1,0 +1,25 @@
+.my-nav {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.logo {
+  width: 150px;
+  height: 70px;
+}
+.li-items{
+    font-weight: 550;
+    color: #444444;
+    font-family: sans-serif;
+}
+.Nav-btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px !important;
+    color: #fff;
+    background-color: #4599b4 !important;
+    outline: none !important;
+    font-family: sans-serif;
+    border: none !important;
+}
+.Nav-btn:hover{
+    background-color: #f3972b !important;
+}

@@ -1,0 +1,25 @@
+.main-heading {
+    padding-top: 2em;
+    text-align: center;
+  }
+  
+  .main-heading h1 {
+    font-size: 3rem;
+    font-family: sans-serif;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  
+  .main-heading h1::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 4px;
+    background-color: #f3972b;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+  }
+  
