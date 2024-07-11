@@ -8,12 +8,10 @@ import Footer from "./Footer/Footer.jsx";
 function Home() {
   return (
     <>
-      <Navbars />
       <Cover />
       <MultipleCard />
       {/* <Cards /> */}
       <ContactUs />
-      <Footer />
     </>
   );
 }
