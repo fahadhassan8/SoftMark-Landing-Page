@@ -3,7 +3,7 @@ import { faLocationCrosshairs } from '@fortawesome/free-solid-svg-icons';
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
-import React, { useEffect } from 'react'
+import  { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 

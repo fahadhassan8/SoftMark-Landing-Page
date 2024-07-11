@@ -51,7 +51,7 @@
   flex-wrap: wrap;
 }
 .form-content input {
-  width: 420px;
+  width: 515px;
   padding: 0.5em;
   border-radius: 5px;
   outline: none;
@@ -109,7 +109,7 @@ textarea {
 
 @media (max-width: 992px) {
   .form-content input {
-    width: 100%;
+    width: 305px;
   }
 }
 @media (max-width: 768px) {

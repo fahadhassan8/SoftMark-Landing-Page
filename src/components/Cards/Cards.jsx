@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react'
+import  { useEffect } from 'react'
 import AOS from 'aos'
 import PropTypes from 'prop-types';
 import 'aos/dist/aos.css';
 import './Cards.css';
 
-const Cards = ({ path, title, para }) => {
+const Cards = ({ path, title, para, }) => {
   useEffect(() => {
     // Initialize AOS
     AOS.init();

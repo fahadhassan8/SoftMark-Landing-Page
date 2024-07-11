@@ -1,100 +1,103 @@
-.coverImage{
-    background-image: url('../../assets/images/cover-image.jfif');
-    width: 100%;
-    height: 88vh;
-    padding: 13rem 5rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    font-family: sans-serif;
+.coverImage {
+  background-image: url("../../assets/images/cover-image.jpg");
+  width: 100%;
+  height: 88vh;
+  padding: 13rem 5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: sans-serif;
+  z-index: -1;
 }
-.hero{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 1em;
-    position: absolute;
-    top: 10rem;
-    left: 5rem;
+.hero {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+  position: absolute;
+  top: 10rem;
+  left: 5rem;
 }
-.coverImage h1{
-    font-size: 3rem;
-    font-weight: 550;
-    color:#f3972b;
-    letter-spacing: 3px;
+.coverImage h1 {
+  font-size: 3rem;
+  font-weight: 550;
+  color: #f3972b;
+  letter-spacing: 3px;
 }
-.coverImage h2{
-    font-size: 3rem;
-    font-weight: 550;
-    color:#4599b4;
-    letter-spacing: 3px;
+.coverImage h2 {
+  font-size: 3rem;
+  font-weight: 550;
+  color: #4599b4;
+  letter-spacing: 3px;
 }
-h2 span{
-    color:#f3972b;
-    margin-left: 0.5em;
-    font-size: 0.5em;
+h2 span {
+  color: #f3972b;
+  margin-left: 0.5em;
+  font-size: 0.5em;
 }
-.cover-btn{
-    width: 180px;
-    height: 60px;
-    border-radius: 50px !important;
-    color: #fff;
-    background-color: #f3972b !important;
-    outline: none !important;
-    font-family: sans-serif;
-    border: none !important;
-    font-weight: bold;
-    font-size: 1.2rem;
-    font-family: sans-serif;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+.cover-btn {
+  width: 180px;
+  height: 60px;
+  border-radius: 50px !important;
+  color: #fff;
+  background-color: #f3972b !important;
+  outline: none !important;
+  font-family: sans-serif;
+  border: none !important;
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  cursor: pointer !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 }
 .cover-btn:hover{
-    background-color: #4599b4 !important;
+  background-color: #4599b4 !important;
+  cursor: pointer;
 }
 
-@media (max-width:768px){
-    .coverImage{
-        background-size:cover;
-        height: auto;
-    }
-    .hero{
-        top:5rem;
-        left: 3rem;
-    }
-    .coverImage h1{
-        font-size: 2rem;
-        letter-spacing: 3px;
-    }
-    .coverImage h2{
-        font-size: 2rem;
-        letter-spacing: 3px;
-    }
+@media (max-width: 768px) {
+  .coverImage {
+    background-size: cover;
+    height: auto;
+  }
+  .hero {
+    top: 5rem;
+    left: 3rem;
+  }
+  .coverImage h1 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
+  .coverImage h2 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
 }
 
-@media (max-width:570px){
-
-    .coverImage h1{
-        font-size: 1.5rem;
-    }
-    .coverImage h2{
-        font-size: 1.5rem;
-    }
-    .cover-btn{
-        width: 120px;
-        height: 40px;
-        border-radius: 50px !important;
-        font-weight: bold;
-        font-size: 0.9rem;
-    }
+@media (max-width: 570px) {
+  .coverImage h1 {
+    font-size: 1.5rem;
+  }
+  .coverImage h2 {
+    font-size: 1.5rem;
+  }
+  .cover-btn {
+    width: 120px;
+    height: 40px;
+    border-radius: 50px !important;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
 }
-@media (max-width:430px){
-    .coverImage h1{
-        font-size: 1.2rem;
-    }
-    .coverImage h2{
-        font-size: 1.2rem;
-    }
-    .hero{
-        left: 2rem;
-    }
+@media (max-width: 430px) {
+  .coverImage h1 {
+    font-size: 1.2rem;
+  }
+  .coverImage h2 {
+    font-size: 1.2rem;
+  }
+  .hero {
+    left: 2rem;
+  }
 }
