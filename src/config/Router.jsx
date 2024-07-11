@@ -14,9 +14,9 @@ function Router() {
                 <Route path="/" element={<Home/>} />
                 <Route path="WebService" element={<WebService/>} />
                 <Route path="AppService" element={<AppService/>} />
-                <Route path="LogoService" element={<LogoService/>} />
                 <Route path="SeoService" element={<SeoService/>} />
                 <Route path="DigitalMarketing" element={<DigitalMarketing/>} />
+                <Route path="LogoService" element={<LogoService/>} />
             </Routes>
         </BrowserRouter>
     </>

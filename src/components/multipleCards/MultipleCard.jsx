@@ -20,26 +20,32 @@ const MultipleCard = () => {
       path: img1,
       title: 'Web Development',
       para: 'Transforming your digital vision into reality with expert web development services. Empower your online presence with cutting-edge design and functionality.',
+      route:'/WebService'
     },
     {
       path: img2,
       title: 'Mobile App Development',
       para: 'Crafting seamless and intuitive mobile experiences tailored to your unique vision. From concept to launch, trust our team to bring your app idea to life with precision and innovation.',
+      route:'/AppService'
+      
     },
     {
       path: img3,
       title: 'Search Engine Optimization',
       para: 'Maximize your online visibility and drive organic traffic to your website with our strategic SEO solutions. Dominate search engine rankings and connect with your target audience effectively.',
+      route:'/SeoService'
     },
     {
       path: img4,
       title: 'Digital Marketing',
       para: 'Maximize your online visibility and drive organic traffic to your website with our strategic SEO solutions. Dominate search engine rankings and connect with your target audience effectively.',
+      route:'/DigitalMarketing'
     },
     {
       path: img5,
       title: 'Logo Design',
       para: 'Maximize your online visibility and drive organic traffic to your website with our strategic SEO solutions. Dominate search engine rankings and connect with your target audience effectively.',
+      route:'/LogoService'
     },
   ];
 
@@ -50,7 +56,7 @@ const MultipleCard = () => {
       </div>
       <div className="sub-cards container">
         {serviceData.map((item, index) => (
-          <Cards key={index} path={item.path} title={item.title} para={item.para} />
+          <Cards key={index} path={item.path} title={item.title} para={item.para} route={item.route} />
         ))}
       </div>
     </div>
