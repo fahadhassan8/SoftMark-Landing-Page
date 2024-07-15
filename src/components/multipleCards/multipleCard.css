@@ -1,6 +1,7 @@
 .main-heading {
     padding-top: 2em;
     text-align: center;
+    margin-top: 5rem;
   }
   
   .main-heading h1 {
@@ -9,6 +10,7 @@
     position: relative;
     display: inline-block;
     margin: 0 auto;
+    margin-top: 2rem;
   }
   
   .main-heading h1::after {

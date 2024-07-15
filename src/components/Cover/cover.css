@@ -7,16 +7,18 @@
   background-size: cover;
   position: relative;
   font-family: sans-serif;
-  z-index: -1;
+  top: 5rem;
 }
 .hero {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  z-index: 10 !important;
   gap: 1em;
   position: absolute;
   top: 10rem;
   left: 5rem;
+  /* z-index: -1 !important; */
 }
 .coverImage h1 {
   font-size: 3rem;
@@ -47,13 +49,11 @@ h2 span {
   font-weight: bold;
   font-size: 1.2rem;
   font-family: sans-serif;
-  cursor: pointer !important;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
+  cursor: pointer ;
+  box-shadow: #0000003d 0px 3px 8px;
 }
 .cover-btn:hover{
   background-color: #4599b4 !important;
-  cursor: pointer;
 }
 
 @media (max-width: 768px) {

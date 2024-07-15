@@ -41,7 +41,7 @@
 }
 .form-content {
   height: auto;
-  width: auto;
+  width: 100%;
   padding: 2em;
   display: flex;
   align-items: center;
@@ -51,7 +51,7 @@
   flex-wrap: wrap;
 }
 .form-content input {
-  width: 515px;
+  width: 470px;
   padding: 0.5em;
   border-radius: 5px;
   outline: none;

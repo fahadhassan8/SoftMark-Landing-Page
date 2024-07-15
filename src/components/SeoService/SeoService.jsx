@@ -1,8 +1,8 @@
-
+import MultipleCard from '../multipleCards/MultipleCard'
 function SeoService() {
   return (
     <div>
-        Logo
+      <MultipleCard />        
     </div>
   )
 }

@@ -1,8 +1,8 @@
-
+import MultipleCard from "../multipleCards/MultipleCard"
 function DigitalMarketing() {
   return (
     <div>
-        Digital Marketing
+      <MultipleCard />        
     </div>
   )
 }

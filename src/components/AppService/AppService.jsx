@@ -1,8 +1,8 @@
-
+import MultipleCard from "../multipleCards/MultipleCard"
 const AppService = () => {
   return (
     <div>
-        App
+      <MultipleCard />
     </div>
   )
 }

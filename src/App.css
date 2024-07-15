@@ -1,4 +1,32 @@
-body{
+body {
     background-color: #f6f7f7;
     /* overflow-x: hidden; */
-}
+  }
+  
+  .sprinkle-container {
+    position: relative;
+    pointer-events: none;
+    z-index: 1000;
+  }
+  
+  .sprinkle {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: linear-gradient( #4599b4, #f3972b);
+    border-radius: 50%;
+    opacity: 0;
+    animation: sprinkle-animation 2.3s forwards;
+  }
+  
+  @keyframes sprinkle-animation {
+    0% {
+      opacity: 1;
+      transform: translate(0, 0) scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: translate(calc(50px - 100px * var(--random-x)), calc(50px - 100px * var(--random-y))) scale(0);
+    }
+  }
+  

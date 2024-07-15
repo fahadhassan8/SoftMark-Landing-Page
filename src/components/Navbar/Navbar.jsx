@@ -41,7 +41,7 @@ function Navbars() {
                 <span>Careers</span>
               </Nav.Link>
 
-              <Button className="Nav-btn">Search</Button>
+              <Button className="Nav-btn">Contact Us</Button>
             </Form>
           </Navbar.Collapse>
         </Container>

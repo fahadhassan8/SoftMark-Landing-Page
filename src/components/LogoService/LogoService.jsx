@@ -1,8 +1,8 @@
-
+import MultipleCard from "../multipleCards/MultipleCard"
 function LogoService() {
   return (
     <div>
-        Logo
+      <MultipleCard />        
     </div>
   )
 }

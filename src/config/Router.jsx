@@ -12,7 +12,6 @@ function Router() {
     <>
       <BrowserRouter>
         <Navbars />
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="WebService" element={<WebService />} />

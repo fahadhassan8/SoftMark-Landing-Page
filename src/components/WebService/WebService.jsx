@@ -1,10 +1,10 @@
-
+import MultipleCard from "../multipleCards/MultipleCard"
 
 
 function WebService() {
   return (
     <div>
-      
+      <MultipleCard />        
     </div>
   )
 }

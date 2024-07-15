@@ -17,7 +17,7 @@ function ContactUs() {
         <h1>Get in Touch</h1>
       </div>
       <div className="form">
-        <div className="form-content">
+        <div className="form-content">  
           <label>
             <input type="text" placeholder="Name" data-aos="fade-up" data-aos-duration="1500"/>
           </label>
