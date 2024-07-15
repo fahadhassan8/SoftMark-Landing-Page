@@ -7,18 +7,17 @@
   background-size: cover;
   position: relative;
   font-family: sans-serif;
-  top: 5rem;
+  z-index: -1;
+  top: 5rem
 }
 .hero {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  z-index: 10 !important;
   gap: 1em;
   position: absolute;
   top: 10rem;
   left: 5rem;
-  /* z-index: -1 !important; */
 }
 .coverImage h1 {
   font-size: 3rem;
@@ -63,16 +62,17 @@ h2 span {
   }
   .hero {
     top: 5rem;
-    left: 3rem;
+    left: 4rem;
   }
   .coverImage h1 {
-    font-size: 2rem;
+    font-size: 2.4rem;
     letter-spacing: 3px;
   }
   .coverImage h2 {
-    font-size: 2rem;
+    font-size: 2.4rem;
     letter-spacing: 3px;
   }
+
 }
 
 @media (max-width: 570px) {
@@ -92,12 +92,13 @@ h2 span {
 }
 @media (max-width: 430px) {
   .coverImage h1 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .coverImage h2 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .hero {
-    left: 2rem;
+    left: 3rem;
+    top: 6rem;
   }
 }

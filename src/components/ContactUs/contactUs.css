@@ -73,8 +73,11 @@
   color: #757575;
   font-weight: bold;
 }
+.textarea-div{
+  width:92%;
+}
 textarea {
-  width: 92%;
+  width: 100%;
   outline: none;
   border-radius: 5px;
   outline: none;
@@ -83,6 +86,7 @@ textarea {
   font-family: sans-serif;
   font-weight: bold;
   height: 150px;
+  margin: 0 auto;
 }
 .contact-btn {
   width: 200px;
@@ -131,6 +135,9 @@ textarea {
   .dropdown {
     width: 320px
   }
+  .textarea-div{
+    width:325px;
+  }
   textarea {
     width: 325px;
     height: 150px;
@@ -157,6 +164,9 @@ textarea {
     .dropdown {
       width: 300px;
   
+    }
+    .textarea-div{
+      width:300px;
     }
     textarea {
       width: 300px;
