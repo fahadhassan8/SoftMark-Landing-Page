@@ -63,6 +63,7 @@ function ContactUs() {
               <option value="option3">Mobile App & Web Development</option>
               <option value="option4">SEO</option>
               <option value="option5">Digital Marketing</option>
+              <option value="option5">Logo Designing</option>
             </select>
           </div>
           <div className="textarea-div">
